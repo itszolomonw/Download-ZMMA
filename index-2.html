@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZMMA — Android'e İndir</title>
+<meta name="description" content="ZMMA MMA Intelligence Hub: UFC, ONE ve PFL dövüşçüleri, haberler ve etkinlik kartları. Android APK'yı ücretsiz indir.">
+<meta name="theme-color" content="#09090b">
+<style>
+:root{--bg:#09090b;--surface:#18181b;--surface-2:#27272a;--primary:#ccff00;--on-primary:#000;--text:#fafafa;--muted:#a1a1aa;--border:rgba(255,255,255,.1)}
+@media(prefers-color-scheme:light){:root{--bg:#f6f6f2;--surface:#fff;--surface-2:#ecece6;--primary:#4d6b00;--on-primary:#fff;--text:#111114;--muted:#5c5c66;--border:rgba(0,0,0,.1)}}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;padding-bottom:env(safe-area-inset-bottom,0)}
+.wrap{max-width:640px;margin:0 auto;padding:0 20px}
+header{padding:22px 0 0;font-weight:900;font-size:22px;letter-spacing:-.5px}
+header b{color:var(--primary)}
+.hero{padding:48px 0 28px}
+.pill{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.5px;color:var(--primary);border:1px solid var(--border);padding:5px 12px;border-radius:999px;margin-bottom:18px}
+h1{font-size:clamp(34px,9vw,52px);line-height:1.05;letter-spacing:-1.5px;font-weight:900}
+h1 em{font-style:normal;color:var(--primary)}
+.lead{color:var(--muted);font-size:17px;margin:16px 0 28px;max-width:46ch}
+.btns{display:flex;flex-direction:column;gap:12px}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:16px 20px;border-radius:999px;font-weight:800;font-size:16px;text-decoration:none;transition:transform .2s}
+.btn:active{transform:scale(.97)}
+.btn.main{background:var(--primary);color:var(--on-primary)}
+.btn.alt{border:1px solid var(--border);color:var(--text);background:var(--surface)}
+.meta{font-size:12px;color:var(--muted);margin-top:12px}
+section{padding:30px 0;border-top:1px solid var(--border)}
+h2{font-size:20px;letter-spacing:-.3px;margin-bottom:16px}
+.feat{display:grid;gap:10px}
+.feat div{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:14px 16px}
+.feat b{display:block;margin-bottom:2px}
+.feat span{color:var(--muted);font-size:14px}
+ol{list-style:none;counter-reset:s;display:grid;gap:12px}
+ol li{counter-increment:s;display:flex;gap:14px;align-items:flex-start;color:var(--muted)}
+ol li::before{content:counter(s);flex:none;width:28px;height:28px;border-radius:50%;background:var(--primary);color:var(--on-primary);font-weight:900;font-size:14px;display:grid;place-items:center}
+ol li b{color:var(--text)}
+details{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+summary{font-weight:700;cursor:pointer}
+details p{color:var(--muted);font-size:14px;margin-top:8px}
+footer{padding:26px 0 40px;color:var(--muted);font-size:12px;text-align:center}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>ZM<b>MA</b></header>
+
+<div class="hero">
+  <span class="pill">ANDROID · ÜCRETSİZ · <span id="ver">v1.6</span></span>
+  <h1>MMA dünyası <em>cebinde.</em></h1>
+  <p class="lead">UFC, ONE ve PFL dövüşçüleri, haberler, karşılaştırma aracı ve en yakın etkinlik kartları tek uygulamada.</p>
+  <div class="btns">
+    <a class="btn main" id="apkBtn" href="#" download>⬇ APK'yı indir</a>
+    <a class="btn alt" id="webBtn" href="#">Kurmadan tarayıcıda aç</a>
+  </div>
+  <p class="meta">Android 7.0 ve üzeri. Google Play'de değil; dosya doğrudan buradan indirilir.</p>
+</div>
+
+<section>
+  <h2>Neler var?</h2>
+  <div class="feat">
+    <div><b>100 dövüşçü</b><span>UFC, ONE ve PFL kayıtları, rekorlar ve profiller.</span></div>
+    <div><b>Gelişmiş Kartlar</b><span>Her organizasyon için tarihe göre en yakın üç etkinlik.</span></div>
+    <div><b>Karşılaştır</b><span>İki dövüşçüyü istatistik ve radar grafikle yan yana koy.</span></div>
+    <div><b>Haberler ve Zolomon</b><span>Güncel gelişmeler, analizler ve maç tahminleri.</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Nasıl kurulur?</h2>
+  <ol>
+    <li><span><b>APK'yı indir.</b> Yukarıdaki butona dokun. Tarayıcı "bu dosya zararlı olabilir" uyarısı verirse "Yine de indir"i seç.</span></li>
+    <li><span><b>Dosyayı aç.</b> Bildirimden veya Dosyalar/İndirilenler klasöründen <i>zmma.apk</i>'ya dokun.</span></li>
+    <li><span><b>İzin ver.</b> Android "bilinmeyen uygulamaları yükle" izni isterse, tarayıcın için bir kez aç.</span></li>
+    <li><span><b>Kur ve aç.</b> "Yükle"ye bas, bitince ZMMA'yı başlat.</span></li>
+  </ol>
+</section>
+
+<section>
+  <h2>Sık sorulanlar</h2>
+  <details><summary>Güvenli mi?</summary><p>Uygulama reklamsızdır ve hesap veya kişisel veri istemez. Uyarıyı Android, Play Store dışındaki her APK için gösterir.</p></details>
+  <details><summary>Nasıl güncellenir?</summary><p>Bu sayfadan yeni APK'yı indirip üstüne kurman yeterli; verilerin korunur.</p></details>
+  <details><summary>iPhone'da olur mu?</summary><p>APK yalnızca Android içindir. iPhone'da "Kurmadan tarayıcıda aç"ı kullanıp Safari'de Paylaş → Ana Ekrana Ekle'ye dokunabilirsin.</p></details>
+</section>
+
+<footer>ZMMA — Bağımsız bir hayran projesidir; UFC, ONE ve PFL ile resmî bir bağı yoktur.</footer>
+</div>
+
+<script>
+/* ===== AYARLAR — yalnızca burayı düzenle ===== */
+var CONFIG = {
+  version: "v1.6",
+  apkUrl:  "https://github.com/KULLANICI/DEPO/releases/latest/download/zmma.apk",
+  webUrl:  "https://KULLANICI.github.io/ZMMA-DEPOSU/"
+};
+/* ============================================= */
+document.getElementById('ver').textContent = CONFIG.version;
+document.getElementById('apkBtn').href = CONFIG.apkUrl;
+document.getElementById('webBtn').href = CONFIG.webUrl;
+</script>
+</body>
+</html>
